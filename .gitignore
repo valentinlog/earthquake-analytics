@@ -1,0 +1,23 @@
+.databricks/
+build/
+dist/
+__pycache__/
+*.egg-info
+venv/
+.venv/
+!scratch/README.md
+**/explorations/**
+**/!explorations/README.md
+
+
+
+# Secrets
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
